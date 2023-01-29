@@ -5,11 +5,14 @@ const palindromes = function (input) {
     let arrayInput = [...inputLowerCase];
     let arrayReversed = arrayInput.reverse();
     let stringReversed = arrayReversed.join("");
+    return (inputLowerCase === stringReversed) ? true : false;
+    /*
     if(inputLowerCase === stringReversed) {
         return true;
     } else {
         return false;
     }
+    */
 
 };
 
